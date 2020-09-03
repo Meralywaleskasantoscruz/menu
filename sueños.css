@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    margin:0px;
+    font-family: century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+body{
+    background-color: lightblue ;
+}
+.home{
+    display: flex;
+    flex-wrap:wrap; 
+}
+.mis-sueños{
+    flex: 1;
+    padding:25px;
+    background-color: rgb(141, 236, 157);
+   min-width: 250px; 
+   
+}
+.dos{
+    flex: 2;
+    padding:25px;
+    background-color: lightgoldenrodyellow;
+    margin: 20px;
+    margin-bottom:0px;
+}
+.tres{
+    flex:3;
+    padding:25px;
+    background-color: rgb(221, 116, 241);
+    margin: 20px;
+    min-width: 250px; 
+}
+.cuatro{
+    flex: 4;
+    padding:40px;
+    margin: 20px;
+    background-color: rgb(233, 183, 75);
+    min-width: 250px;
+    margin-bottom:0px;
+}

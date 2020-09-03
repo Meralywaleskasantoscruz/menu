@@ -1,0 +1,34 @@
+*{
+    padding: 0px;
+    margin:0px;
+    font-family: century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+body{
+    background-color: lightblue ;
+}
+.home{
+    display: flex;
+    flex-wrap:wrap; 
+}
+.mis-sueños{
+    flex: 1;
+    padding:25px;
+    background-color: rgb(236, 171, 141);
+   min-width: 250px; 
+   
+}
+.dos{
+    flex: 2;
+    padding:25px;
+    background-color: goldenrod;
+    margin: 20px;
+    margin-bottom:0px;
+}
+.tres{
+    flex:3;
+    padding:25px;
+    background-color: rgb(223, 213, 79);
+    margin: 20px;
+    min-width: 250px; 
+}
