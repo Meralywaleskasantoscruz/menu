@@ -1,0 +1,53 @@
+
+*body{
+    background-image:"manchas.jpg";
+   
+    }
+    
+H1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 12mm;
+    flood-color: violet;
+    background-color: rgba(238, 199, 27, 0.445);
+    height: 50px;
+    text-decoration-color: yellowgreen;}
+nav{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 10mm;
+    text-align: left;
+    font-size: 25px;
+    color: white;
+    font-family: 'Open Sans';
+    background-color: rgba(27, 238, 115, 0.781);
+}
+figure {
+    width: 150px;
+  height: 150px;
+  text-align:right;
+  }
+  p{
+    text-align:right;    
+   }
+   h2{
+    text-align:center;  
+    width: 1115;
+
+    width: 1500px;   
+}
+h2.La{
+    text-align:right; 
+}
+figcaption{
+  
+
+    width: 350px;
+}
+footer{
+    font-size: 5mm;
+    text-align: center;
+}
+h6{
+    font-size: 5mm;
+    text-align: center;
+}
