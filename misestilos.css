@@ -1,7 +1,10 @@
 
 *body{
     background-image:"manchas.jpg";
-   
+    flex-wrap:wrap; 
+    min-width: 250px;
+    flex-wrap:wrap; 
+
     }
     
 H1 {
@@ -11,7 +14,9 @@ H1 {
     flood-color: violet;
     background-color: rgba(238, 199, 27, 0.445);
     height: 50px;
-    text-decoration-color: yellowgreen;}
+    text-decoration-color: yellowgreen;
+    min-width: 250px;
+    flex-wrap:wrap; }
 nav{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 10mm;
@@ -20,23 +25,27 @@ nav{
     color: white;
     font-family: 'Open Sans';
     background-color: rgba(27, 238, 115, 0.781);
-}
+    min-width: 250px;
+    flex-wrap:wrap; }
 figure {
     width: 150px;
   height: 150px;
   text-align:right;
   }
   p{
-    text-align:right;    
+    text-align:right;
+    flex-wrap:wrap;     
    }
    h2{
     text-align:center;  
     width: 1115;
+    flex-wrap:wrap; 
 
     width: 1500px;   
 }
 h2.La{
     text-align:right; 
+    flex-wrap:wrap; 
 }
 figcaption{
   
@@ -46,8 +55,11 @@ figcaption{
 footer{
     font-size: 5mm;
     text-align: center;
+    min-width: 250px;
 }
 h6{
     font-size: 5mm;
-    text-align: center;
+    text-align: center;   
+    min-width: 250px;
+    flex-wrap:wrap; 
 }
