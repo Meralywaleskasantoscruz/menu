@@ -1,0 +1,40 @@
+
+<html>
+    <head>
+    <title>Validar </title>
+    <link rel="stylesheet" href="registro.css">
+    <script>
+    function comprobarClave(){
+        clave1 = document.f1.clave1.value
+        clave2 = document.f1.clave2.value
+    
+        if (clave1 == "meraly" && clave2=="santos"){
+           alert("LOS DATOS INGRESADOS SON CORECTOS...\nBIENVENIDOS A MI PAGINA WEB")
+           var href="menu.html";
+           window.location=href;
+    }
+        else{
+           alert("LOS DATOS SON INCORRECTOS...\nINTENTALO DE NUEVO");
+    };
+}
+    </script>
+    </head>
+    <body background="jjjj.jpg"height="100%" width="100%"></body>
+    <body>
+    
+    <h1>ESCRIBE LAS CONTRASEÑAS CORRECTAS Y ENTTRA A MI PAGINA WEB</h1>
+    <br>
+    <h2 size="15"><CENTER>ESCRIBE LAS CONTRASEÑAS Y LUEGO VERIFICA  SI SON CORRECTAS POR MEDIO  DEL BOTON VERIFICAR</CENTER></h2>
+    
+    <br>
+    <form action="" name="f1">
+    CONTRASEÑA1: <input type="password" name="clave1" size="20">
+    <br>
+    CONTRASEÑA2: <input type="password" name="clave2" size="20">
+    <br>
+    <input type="button" value="VERIFICAR" onClick="comprobarClave()">
+    
+    </form>
+    
+    </body>
+    </html>
